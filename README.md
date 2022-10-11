@@ -26,12 +26,35 @@ Folder structure:
 │   └───PaymentApplication.exe
 ```
 ## Modules
-Card module: The module used to handle the card informations.
-Terminal module: The module used to handle the real time input payment data.
-Server module: The module used to process the payment transaction.
-Application module: The module used to handle the modules and make them work together.
+Card module: The module used to handle the card informations.  
+
+Terminal module: The module used to handle the real time input payment data.  
+
+Server module: The module used to process the payment transaction.  
+
+Application module: The module used to handle the modules and make them work together.  
 
 Project is built with error handling that can help the user/developer to maintin and develop the program.
+
+## How to use
+To edit and compile in this project run this command in the project folder
+'''
+gcc Card/card.c Terminal/terminal.c Server/server.c Application/application main.c -o App.exe
+'''
+That's it. Enjoy the testing & learning.  
+
+It is easy ro run and test the project. All you have to do is to write
+'''c
+int main(void)
+{
+  appStart();
+}
+'''
+and the whole project will run automatically.
+
+## Future plans
+Add more features and automate test cases.  
+Add cmake file to make it easy to build & run.
 ___
 #Credits
 The credits back to the EgFWD Embedded Systems Professional Track specially

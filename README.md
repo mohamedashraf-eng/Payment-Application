@@ -38,24 +38,24 @@ Project is built with error handling that can help the user/developer to maintin
 
 ## How to use
 To edit and compile in this project run this command in the project folder
-'''
+```
 gcc Card/card.c Terminal/terminal.c Server/server.c Application/application main.c -o App.exe
-'''
+```
 That's it. Enjoy the testing & learning.  
 
 It is easy ro run and test the project. All you have to do is to write
-'''c
+```c
 int main(void)
 {
   appStart();
 }
-'''
+```
 and the whole project will run automatically.
 
 ## Future plans
 Add more features and automate test cases.  
 Add cmake file to make it easy to build & run.
 ___
-#Credits
-The credits back to the EgFWD Embedded Systems Professional Track specially
-Eng Yehia M.Abu Eita (The instructor)
+# Credits  
+The credits back to the EgFWD Embedded Systems Professional Track powered by itida. 
+And specially thanks to Eng Yehia M.Abu Eita (The instructor)

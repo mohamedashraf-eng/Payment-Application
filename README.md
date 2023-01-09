@@ -57,5 +57,5 @@ Add more features and automate test cases.
 Add cmake file to make it easy to build & run.
 ___
 # Credits  
-The credits back to the EgFWD Embedded Systems Professional Track powered by itida. 
-And specially thanks to Eng Yehia M.Abu Eita (The instructor)
+The credits back to the EgFWD Embedded Systems Professional Track powered by itida.  
+And specially thanks to [Eng Yehia M.Abu Eita]()
